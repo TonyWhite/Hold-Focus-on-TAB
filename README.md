@@ -31,7 +31,7 @@ With the default values, the function initialize all TEXTAREAs and elements with
 ```html
 <html>
   <head>
-    <script src="https://your_website/hold-focus-on-tab.js" defer></script>
+    <script src="https://your_website/hold-focus-on-tab.min.js" defer></script>
   </head>
   <body>
     <textarea>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
@@ -44,14 +44,14 @@ With the default values, the function initialize all TEXTAREAs and elements with
 
 ---
 
-With parametes, you can take advantage of the granularity, without worries about duplicated events or memory leaks.
+With parameters, you can take advantage of the granularity, without worries about duplicated events or memory leaks.
 - You can write TAB on all editable elements.
 - And my_code will print two spaces instead of the TAB character.
 
 ```html
 <html>
   <head>
-    <script src="https://your_website/hold-focus-on-tab.js" defer></script>
+    <script src="https://your_website/hold-focus-on-tab.min.js" defer></script>
   </head>
   <body>
     <textarea id="my_textarea">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
@@ -74,7 +74,7 @@ You can also inhibit the TAB key on a non-editable element like a button.
 ```html
 <html>
   <head>
-    <script src="https://your_website/hold-focus-on-tab.js" async></script>
+    <script src="https://your_website/hold-focus-on-tab.min.js" async></script>
   </head>
   <body>
     <textarea>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
@@ -95,7 +95,7 @@ If you want to remove the inhibitor from an element
 ```html
 <html>
   <head>
-    <script src="https://your_website/hold-focus-on-tab.js" async></script>
+    <script src="https://your_website/hold-focus-on-tab.min.js" async></script>
   </head>
   <body>
     <textarea>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
