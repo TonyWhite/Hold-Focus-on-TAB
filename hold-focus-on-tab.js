@@ -1,5 +1,5 @@
 function holdFocusOnTab(element = null, hold = true, tabString = "\t") {
-  const _ignoreTabKey = (e) => {
+  const #ignoreTabKey = (e) => {
     if (e.key === 'Tab') {
       // Do not lose focus
       e.preventDefault();
@@ -50,7 +50,7 @@ function holdFocusOnTab(element = null, hold = true, tabString = "\t") {
     }
   }
   else {
-    element.removeEventListener('keydown', _ignoreTabKey);
-    if (hold) element.addEventListener('keydown', _ignoreTabKey);
+    element.removeEventListener('keydown', #ignoreTabKey);
+    if (hold) element.addEventListener('keydown', #ignoreTabKey);
   }
 }
